@@ -105,7 +105,7 @@ async function main() {
     nameList.forEach(name => {
       let newName =
         `<div class="images__card">
-        <img src="https://anniehuzj.github.io/P5tiArduino/CocoonHouse/img/cocoonfinal2.jpg" alt="#">
+        <img src="https://anniehuzj.github.io/CocoonHouse/img/cocoonfinal2.jpg" alt="#">
         <h2>Cocoon</h2>
         <p>${name}</p>
       </div>`
@@ -119,7 +119,7 @@ async function main() {
     console.log(newName);
     const nameNode =
       `<div class="images__card">
-  <img src="https://anniehuzj.github.io/P5tiArduino/CocoonHouse/img/cocoonfinal2.jpg" alt="cocoon">
+  <img src="https://anniehuzj.github.io/CocoonHouse/img/cocoonfinal2.jpg" alt="cocoon">
   <h2>Cacoon</h2>
   <p>${newName}</p>
 </div>`
