@@ -93,26 +93,26 @@ async function main() {
   }
 
 
-  async function listDestroyedItems() {
+  // async function listDestroyedItems() {
 
-    // $('.destroyed').empty();
-    const nameList = await contract.getNames();
+  //   // $('.destroyed').empty();
+  //   const nameList = await contract.getNames();
     
-    console.log(nameList);
+  //   console.log(nameList);
 
-    const listLength = nameList.length;
+  //   const listLength = nameList.length;
 
-    nameList.forEach(name => {
-      let newName =
-        `<div class="images__card">
-        <img src="img/cocoonfinal2.jpg" alt="#">
-        <h2>Cocoon</h2>
-        <p>${name}</p>
-      </div>`
+  //   nameList.forEach(name => {
+  //     let newName =
+  //       `<div class="images__card">
+  //       <img src="img/cocoonfinal2.jpg" alt="#">
+  //       <h2>Cocoon</h2>
+  //       <p>${name}</p>
+  //     </div>`
 
-      $('.images__container').append(newName);
-    })
-  }
+  //     $('.images__container').append(newName);
+  //   })
+  // }
 
 
   contract.on("nameSetEvent", (message, newName) => {
